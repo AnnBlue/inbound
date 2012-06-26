@@ -29,36 +29,17 @@ position: absolute;
 margin: 40% 13%;
 font-size:500%;
 font-family:"play", Arial, sans-serif;
--webkit-text-shadow: 1px 1px rgba(0, 0, 0, .7);
--moz-text-shadow text-shadow: 1px 1px rgba(0, 0, 0, .7);
-text-shadow: -1px 1px 2px rgba(0, 0, 0, .7);
 border-bottom: 1px dotted #aeb5be;
-}
-
-#a_01:link, #a_01:visited,  #a_01:hover, #a_01:active 
-{
-position: absolute;
-top:0;
-z-index:2;
 color: #6b7f97;	
--webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0, 0, 0, 0)));
-text-decoration: none;
+}
 
-}
-.inbound_about header #after_h1:after{
-	content: "¿Qué es el Inbound";
-	color: #000;
-	text-shadow: 2px 2px 1px #adadad;
-	
-}
+
 #h1_2{
 position: absolute;
 font-family:"play", Arial, sans-serif;
-margin: 55% 45%;
+margin: 55% 50%;
 font-size: 450%;
--webkit-text-shadow: 1px 1px rgba(0, 0, 0, .7);
--moz-text-shadow text-shadow: 1px 1px rgba(0, 0, 0, .7);
-text-shadow: -1px 1px 2px rgba(0, 0, 0, .7);
+
 }
 
 #box_meaning{
