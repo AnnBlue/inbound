@@ -4,30 +4,62 @@
 }
 
 @font-face{
-	font-family: "Doppio_One";
-	src: url("http://fonts.googleapis.com/css?family=Doppio+One")
-	format("truetype");
+	font-family:"Doppio One";
+	src: url("http://fonts.googleapis.com/css?family=Doppio+One");
+	format("font_type");
+}
+
+@font-face{
+	font-family:"play";
+	src: url("../fonts/Play/Play-Bold.ttf");
+	format("font_type");
 }
 .inbound_about header{
-background: url("../patterns/hexellence.png") repeat; 
-width:100%;
-height:100%;
+background: url("../patterns/egg_shell.png") repeat; 
+width: 100%;
+height: 100%;
 position: absolute;
 
 }
 
-.inbound_about header h1{
-width:80%;
+.inbound_about header #after_h1{
+width:86%;
+height: 14%;
 position: absolute;
 margin: 40% 13%;
-font-size:400%;
-font-family:"Doppio_One", Arial, sans-serif;
-color: #d6d7d8;
+font-size:500%;
+font-family:"play", Arial, sans-serif;
 -webkit-text-shadow: 1px 1px rgba(0, 0, 0, .7);
 -moz-text-shadow text-shadow: 1px 1px rgba(0, 0, 0, .7);
-text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+text-shadow: -1px 1px 2px rgba(0, 0, 0, .7);
+border-bottom: 1px dotted #aeb5be;
 }
 
+#a_01:link, #a_01:visited,  #a_01:hover, #a_01:active 
+{
+position: absolute;
+top:0;
+z-index:2;
+color: #6b7f97;	
+-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0, 0, 0, 0)));
+text-decoration: none;
+
+}
+.inbound_about header #after_h1:after{
+	content: "¿Qué es el Inbound";
+	color: #000;
+	text-shadow: 2px 2px 1px #adadad;
+	
+}
+#h1_2{
+position: absolute;
+font-family:"play", Arial, sans-serif;
+margin: 55% 45%;
+font-size: 450%;
+-webkit-text-shadow: 1px 1px rgba(0, 0, 0, .7);
+-moz-text-shadow text-shadow: 1px 1px rgba(0, 0, 0, .7);
+text-shadow: -1px 1px 2px rgba(0, 0, 0, .7);
+}
 
 #box_meaning{
 	position: absolute;
@@ -161,7 +193,7 @@ text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
 	height: 100%;
 	position: absolute;
 	background: url("../patterns/nami.png");
-	margin: 586% auto;
+	margin: 584% auto;
 	font-family:"Doppio_One", Arial, sans-serif;
 	-webkit-text-shadow: -1px -2px 2px  rgba(204, 204, 204, .7);
 	-moz-text-shadow text-shadow:-1px -2px 2px  rgba(204, 204, 204, .7);
@@ -194,7 +226,7 @@ text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
 	height: 100%;
 	position: absolute;
 	background: url("../patterns/nami.png");
-	margin: 686% auto;
+	margin: 684% auto;
 }
 
 #title_prices{
