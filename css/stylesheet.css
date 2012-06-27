@@ -195,16 +195,22 @@ color: #868d95;
 	width: 50%;
 	text-align: center;
 	font-size:300%;
-	margin: 7% auto;
+	margin: 6% auto 0;
 	color: #fff;
 }
-
-.services p{
-	width: 50%;
+.services  img {	
+	margin: 2% 5% 0 13%;
+	font-size: 100%;
+	float:left;
+}
+.services p {
+	width: 20%;
+	height: 20%;	
 	text-align: center;
-	margin: 0 auto;
-	list-style-type: none;
+	margin: 3% 3% 0 8%;
 	color: #fff;
+	font-size: 100%;
+	float:left;
 }
 
 .prices{
