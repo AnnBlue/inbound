@@ -78,7 +78,7 @@ color: #868d95;
 
 .inbound_benefits header{
 	font-size: 200%;
-	margin:13% 0 2% 0;
+	margin:13% 10% ;
 	text-align: center;
 	color: #fff;
 	font-family:"play", Arial, sans-serif;
@@ -86,9 +86,7 @@ color: #868d95;
 }
 #placeholder_three{
 	position:absolute;
-	margin: 5% 0%;
-	
-	
+	margin: 25% 55%;	
 }
 
 .inbound_benefits{
@@ -111,7 +109,7 @@ color: #868d95;
 	height:30%;
 	color: #fff;
 	position: absolute;
-	margin: 50% 10%;
+	margin: 60% 10%;
 	font-family:"dosis", Arial, sans-serif;
 }
 .inbound_benefits #be_03{
@@ -131,6 +129,12 @@ color: #868d95;
 	background: url("../patterns/farmer.png");
 	font-family:"dosis", Arial, sans-serif;
 }
+.inbound_testimonials div{
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
 
 .inbound_testimonials header{
 	color: #fff;
@@ -140,9 +144,16 @@ color: #868d95;
 }
 #placeholder_four{
 	position:absolute;
-	
+	margin: 22% 37%;
 }
-
+#placeholder_five{
+	position:absolute;
+	margin: 0% 5%;
+}
+#placeholder_six{
+	position:absolute;
+	margin: 0% 85%;
+}
 #first{
 	width: 100%;
 	height: 100%;
@@ -162,9 +173,7 @@ color: #868d95;
 	font-family:"dosis", Arial, sans-serif;
 }
 
-#placeholder_five{
-	position:absolute;
-}
+
 #second{
 	width: 100%;
 	height: 100%;
@@ -172,11 +181,6 @@ color: #868d95;
 	margin: 145% 0; 
 	background: url("../patterns/dark_geometric.png");
 	color: #fff;
-}
-#placeholder_six{
-	position:absolute;
-	z-index: 4;
-	
 }
 
 #second div{
@@ -224,24 +228,19 @@ color: #868d95;
 	color: #fff;
 }
 
-.services ul{
+.services p{
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
 	list-style-type: none;
-	
-}
-
-.services ul li{
-	margin:5% auto;
-	font-size: 300%;
 	color: #fff;
 }
+
 .prices{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: url("../patterns/nami.png");
+	background: url("../patterns/hexellence.png");
 	margin: 595% auto;
 
 }
@@ -251,141 +250,46 @@ color: #868d95;
 	font-size: 200%;
 	margin: 5% auto;
 	text-align: center;
-	color: #fff;
+	color: #ccc;
 	font-family:"Dosis", Arial, sans-serif;
 }
 	
-#price_one, #price_two, #price_three{
-	width: 20%;
-	height: 50%;
-	position: relative;
-	float: left;
-	margin: 3% auto 0 10%;
-	color: #fff;
-	text-align: center;
-	font-size: 200%;
-	font-family:"Dosis", Arial, sans-serif;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	border-radius: 10px;
-		border: 2px dashed #ccc;
-	
-	
-}
-#price_one input, #price_two input, #price_three input{
-	width: 50%;
-	height: 20%;
-	-webkit-border-radius:15px;
-	-moz-border-radius:15px;
-	border-radius: 15px;
-	background: #000;
-	margin-top: 5%;
-	color:#fff;
-	font-size: 50%;
-}
-
-#price_one input:hover, #price_two input:hover, #price_three input:hover;{
-	color:#ccc;
-	
-}
-#price_one div, #price_two div, #price_three div{
-width: 70%;
-height: 40%;
-opacity: 0.9;
--webkit-border-radius:15px;
--moz-border-radius:15px;
-border-radius: 15px;
-margin:0 auto;
-color:#fff;
-font-weight: bold;
-
-
-}
-#op_20, #op_40, #op_80{
-	font-size: 70%;
-	margin-top: 10%;
-	
-}
-#op_20list li, #op_40list li, #op_80list li {
-	font-size: 40%;
-	list-style-type: none;
-	padding-top:5%;
-	
-}
-
 #about_data{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	margin: 780% auto;
-	background:url("../patterns/nami.png");
+	margin: 695% auto;
+	background:url("../patterns/dark_geometric.png");
 	color: #fff;
-	font-family:"Doppio_One", Arial, sans-serif;
+	font-family:"Dosis", Arial, sans-serif;
 }
 #about_data header{
 	width: 20%;
 	font-size: 190%;
 	margin: 10% auto;
 }
-#about_data div{
-	position: relative;
-	float: left;
-	margin-left:9%;
-	text-align: center;
-	border: 1px solid #ccc;
-	font-size: 100%;
-	height:15%;
-}
-#about_data #pic_six{
-	position: absolute;
-	margin: 40% 0 0 27%;
-	text-align: center;
-}
-#about_data #pic_seven{
-	position: absolute;
-	margin: 40% 0 0 63%;
-	text-align: center;
-	
-}
+
+
 #contact_form{
 	width: 100%;
 	height: 100%;
-	margin: 875% auto;
+	margin: 795% auto;
 	position: absolute;	
-	background:url("../patterns/nami.png");
+	background:url("../patterns/square_pattern.png");
 	color: #fff;
 	font-size: 150%;
-	font-family:"Doppio_One", Arial, sans-serif;
+	font-family:"Dosis", Arial, sans-serif;
 	
 }
-#contact_form form {
-	width:50%;
-	margin: 10% auto;
-	text-align: center;
-}
-#contact_form form input{
-	width: 35%;
-	-webkit-border-radius:15px;
-	-moz-border-radius:15px;
-	border-radius: 15px;
-}
-#contact_form  #comment{
-	width: 70%;
-	height: 50%;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	border-radius: 5px;
-}
-#contact_form  #submit_button{
-	width: 15%;
-}
+
+
 #end_space{
 	width:100%;
 	height:10%;
 	border: 2px solid #ccc;
 	position: absolute;
 	background: #ccc;
-	margin: 0 auto;
+	margin: 90% auto;
 	
 }
 #end_space p{
