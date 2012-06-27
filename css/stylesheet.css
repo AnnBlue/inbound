@@ -14,6 +14,26 @@
 	src: url("../fonts/Play/Play-Bold.ttf");
 	format("font_type");
 }
+
+@font-face{
+	font-family:"codystar";
+	src: url("../fonts/Codystar/Codystar-Regular.ttf");
+	format("font_type");
+}
+
+#placeholder_one{
+position: absolute;
+z-index: 1;
+margin: 20% 75%;
+border: 2px dotted #9ea2a7;
+}
+
+#placeholder_two{
+position: absolute;
+z-index: 3;
+margin: 46% 72%;
+border: 2px dotted #9ea2a7;
+}
 .inbound_about header{
 background: url("../patterns/egg_shell.png") repeat; 
 width: 100%;
@@ -24,12 +44,12 @@ position: absolute;
 
 .inbound_about header #after_h1{
 width:86%;
-height: 14%;
+height: 16%;
 position: absolute;
-margin: 40% 13%;
+margin: 20% 5%;
 font-size:500%;
 font-family:"play", Arial, sans-serif;
-border-bottom: 1px dotted #aeb5be;
+border-bottom: 10px dotted #aeb5be;
 color: #6b7f97;	
 }
 
@@ -37,9 +57,21 @@ color: #6b7f97;
 #h1_2{
 position: absolute;
 font-family:"play", Arial, sans-serif;
-margin: 55% 50%;
+margin: 36% 40%;
 font-size: 450%;
+color: #54585c;
+}
 
+#fold_txt_one{
+margin: 53% 8%;
+width: 60%;
+height: 30%;
+position:absolute;
+z-index:2;
+font-family:"codystar", Arial, sans-serif;
+text-align: justify;
+font-size: 225%;
+color: #8aa1bd;
 }
 
 #box_meaning{
