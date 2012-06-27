@@ -129,12 +129,7 @@ color: #868d95;
 	background: url("../patterns/farmer.png");
 	font-family:"dosis", Arial, sans-serif;
 }
-.inbound_testimonials div{
-	width: 60%;
-	height: 60%;
-	margin: 0 auto;
-	text-align: center;
-}
+
 
 .inbound_testimonials header{
 	color: #fff;
@@ -142,74 +137,50 @@ color: #868d95;
 	font-size: 400%;
 	margin-top:20%;
 }
+.inbound_testimonials div{
+	width: 60%;
+	margin: 2% auto;
+	height: 5%;
+	text-align: center;
+	font-size: 120%;
+}
 #placeholder_four{
 	position:absolute;
 	margin: 22% 37%;
 }
-#placeholder_five{
-	position:absolute;
-	margin: 0% 5%;
-}
-#placeholder_six{
-	position:absolute;
-	margin: 0% 85%;
-}
+
 #first{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	margin: 44% 0; 
+	margin: 35% 0; 
 	background: url("../patterns/large_leather.png");
-	
+	color: #000;
 }
 
-#first div{
+#first div, #second div{
 	width: 70%;
-	height: 50%;
-	margin: 20% 0 0 15%;
-	text-align: center;
-	font-size: 200%;
-	color: #ccc;
+	height: 40%;
+	margin: 15% 0 0 15%;
+	text-align: justify;
+	font-size: 180%;
 	font-family:"dosis", Arial, sans-serif;
 }
-
+#first div img, #second div img{
+	float: left;
+	margin: 0 auto;
+	padding: 1% 2% 0 1%;
+}
 
 #second{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	margin: 145% 0; 
+	margin: 136% 0; 
 	background: url("../patterns/dark_geometric.png");
 	color: #fff;
 }
 
-#second div{
-	width: 70%;
-	height: 50%;
-	margin: 20% 0 0 15%;
-	text-align: center;
-	font-size: 200%;
-	color: #fff;
-	font-family:"dosis", Arial, sans-serif;
-}
-#third{
-	position:absolute;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	margin: 145% auto;
-	color: #fff;
-	background: url("../patterns/broken_noise.png");
-}
-#third div{
-	width: 70%;
-	height: 50%;
-	margin: 20% 0 0 15%;
-	text-align: center;
-	font-size: 200%;
-	color: #fff;
-	font-family:"dosis", Arial, sans-serif;
-}
 
 .services{
 	width: 100%;
