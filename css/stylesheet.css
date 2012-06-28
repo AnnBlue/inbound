@@ -233,7 +233,7 @@ color: #868d95;
 
 
 #text_prices p{
-	font-size: 400%;
+	font-size: 350%;
 	width: 30%;
 	height: 40%;
 	margin: 2% 10%;
@@ -302,9 +302,40 @@ color: #868d95;
 	position: absolute;	
 	background:url("../patterns/square_pattern.png");
 	color: #fff;
-	font-size: 150%;
 	font-family:"Dosis", Arial, sans-serif;
 	
+}
+#contact_form header p{
+	width: 20%;
+	font-size: 250%;
+	margin: 7% auto 0;
+}
+#imagenes_contact_left{
+	width: 25%;
+	height:70%;
+	position: absolute;
+	top: 13%;
+	margin: 5%;
+}
+#contact_form #text_contacts{
+	width: 30%;
+	height: 30%;
+	margin: 2% auto 0;
+	font-size: 130%;
+	text-align: center;
+}
+#imagenes_contact_right{
+	width: 25%;
+	height:70%;
+	position: absolute;
+	right: 0;
+	top: 18%;
+}
+
+#imagenes_contact_right{
+	width: 30%;
+	height: 30%;
+	margin: 0 auto;
 }
 #end_space{
 	width:100%;
@@ -312,11 +343,12 @@ color: #868d95;
 	border: 2px solid #ccc;
 	position: absolute;
 	background: #ccc;
-	margin: 90% auto;
+	margin: 44% auto;
 	
 }
 #end_space p{
 	color: #000;
 	font-size: 60%;
 	text-align: center;
+	font-family:"Dosis", Arial, sans-serif;
 }
